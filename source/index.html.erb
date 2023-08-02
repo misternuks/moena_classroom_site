@@ -1,8 +1,8 @@
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(http://source.unsplash.com/random/?school);">
   <div class="container">
     <h1>Moena's English School</h1>
-    <p>Speak English more gooder then b4.</p>
-    <a class="btn btn-flat" href="#">Contact Moena to learn more!</a>
+    <p>English is more than a test you have to take! It is a tool of communication. Learn how to build communicative confidence and competence in the world's most commonly used language.</p>
+    <a class="btn btn-flat" href="https://www.eccjr.co.jp/" target="_blank">Learn more about ECC Junior</a>
   </div>
 </div>
 <div class="container my-3">
@@ -14,12 +14,20 @@
       <button class="nav-link" id="curriculum-tab" data-bs-toggle="tab" data-bs-target="#curriculum-tab-pane" type="button" role="tab" aria-controls="curriculum-tab-pane" aria-selected="false">Curriculum</button>
     </li>
     <li class="nav-item" role="presentation">
+      <button class="nav-link" id="schedule-tab" data-bs-toggle="tab" data-bs-target="#schedule-tab-pane" type="button" role="tab" aria-controls="schedule-tab-pane" aria-selected="false">Lesson Schedule</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="fees-tab" data-bs-toggle="tab" data-bs-target="#fees-tab-pane" type="button" role="tab" aria-controls="fees-tab-pane" aria-selected="false">Fees</button>
+    </li>
+    <li class="nav-item" role="presentation">
       <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
     </li>
   </ul>
   <div class="tab-content" id="myTabContent">
     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"><%= partial 'partials/home' %></div>
     <div class="tab-pane fade" id="curriculum-tab-pane" role="tabpanel" aria-labelledby="curriculum-tab" tabindex="0"><%= partial 'partials/curriculum' %></div>
+    <div class="tab-pane fade" id="schedule-tab-pane" role="tabpanel" aria-labelledby="schedule-tab" tabindex="0"><%= partial 'partials/schedule' %></div>
+    <div class="tab-pane fade" id="fees-tab-pane" role="tabpanel" aria-labelledby="fees-tab" tabindex="0"><%= partial 'partials/fees' %></div>
     <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0"><%= partial 'partials/contact' %></div>
   </div>
 </div>
