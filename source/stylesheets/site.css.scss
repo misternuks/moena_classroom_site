@@ -1,1 +1,7 @@
 @import "components/index";
+
+@media screen and (max-width: 780px) {
+  .menu-tab-text {
+    display: none;
+  }
+}
